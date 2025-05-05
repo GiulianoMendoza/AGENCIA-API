@@ -28,7 +28,6 @@ namespace ArgenMoto.Controllers
             return new JsonResult(result) { StatusCode = 200 };
         }
         [HttpGet("Me")]
-        [Authorize(Roles = "admin,user")]
         [ProducesResponseType(typeof(ClientResponse), 200)]
         [ProducesResponseType(typeof(ApiError), 404)]
         public async Task<IActionResult> GetClientById()
@@ -45,7 +44,6 @@ namespace ArgenMoto.Controllers
             }
         }
         [HttpPost]
-        [Authorize(Roles = "admin,user")]
         [ProducesResponseType(typeof(ClientResponse), 201)]
         [ProducesResponseType(typeof(ApiError), 400)]
         public async Task<IActionResult> RegisterClient([FromBody] ClientRequest request)

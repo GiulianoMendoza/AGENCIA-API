@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArgenMoto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70e8c02496981d9e6e8771e748307b92bfb1c584")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f888e32bde94494b2ff5552871fe279852b21e01")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArgenMoto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArgenMoto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
