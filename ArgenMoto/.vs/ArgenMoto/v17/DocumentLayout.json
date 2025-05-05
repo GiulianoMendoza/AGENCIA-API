@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|d:\\facultad\\argenmoto\\argenmoto\\argenmoto\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|solutionrelative:argenmoto\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|d:\\facultad\\argenmoto\\argenmoto\\argenmoto\\controllers\\techcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|solutionrelative:argenmoto\\controllers\\techcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|d:\\facultad\\argenmoto\\argenmoto\\argenmoto\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|solutionrelative:argenmoto\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|d:\\facultad\\argenmoto\\argenmoto\\argenmoto\\controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|solutionrelative:argenmoto\\controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|d:\\facultad\\argenmoto\\argenmoto\\argenmoto\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2CE7B7A-AE58-4577-A032-00038C7D5028}|ArgenMoto\\ArgenMoto.csproj|solutionrelative:argenmoto\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E7BC3F4-0185-414C-841B-F1819040455F}|Application\\Application.csproj|d:\\facultad\\argenmoto\\argenmoto\\application\\usecase\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E7BC3F4-0185-414C-841B-F1819040455F}|Application\\Application.csproj|solutionrelative:application\\usecase\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F002F680-1321-49CD-A011-79266E8F78C3}|Infraestructure\\Infraestructure.csproj|d:\\facultad\\argenmoto\\argenmoto\\infraestructure\\data\\motodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F002F680-1321-49CD-A011-79266E8F78C3}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\data\\motodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,17 +81,93 @@
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TechController.cs",
+              "DocumentMoniker": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\TechController.cs",
+              "RelativeDocumentMoniker": "ArgenMoto\\Controllers\\TechController.cs",
+              "ToolTip": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\TechController.cs",
+              "RelativeToolTip": "ArgenMoto\\Controllers\\TechController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:52:05.815Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SellerController.cs",
+              "DocumentMoniker": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\SellerController.cs",
+              "RelativeDocumentMoniker": "ArgenMoto\\Controllers\\SellerController.cs",
+              "ToolTip": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\SellerController.cs",
+              "RelativeToolTip": "ArgenMoto\\Controllers\\SellerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:52:01.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "ArgenMoto\\Controllers\\SaleController.cs",
+              "ToolTip": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "ArgenMoto\\Controllers\\SaleController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwEgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:51:52.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "ArgenMoto\\Controllers\\ClientController.cs",
+              "ToolTip": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "ArgenMoto\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwC0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:51:32.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\Application\\UseCase\\ClientService.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\ClientService.cs",
+              "ToolTip": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\Application\\UseCase\\ClientService.cs",
+              "RelativeToolTip": "Application\\UseCase\\ClientService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T22:31:31.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MotoController.cs",
+              "DocumentMoniker": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\MotoController.cs",
+              "RelativeDocumentMoniker": "ArgenMoto\\Controllers\\MotoController.cs",
+              "ToolTip": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\ArgenMoto\\Controllers\\MotoController.cs",
+              "RelativeToolTip": "ArgenMoto\\Controllers\\MotoController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwF4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T23:20:14.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MotoData.cs",
               "DocumentMoniker": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\Infraestructure\\Data\\MotoData.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Data\\MotoData.cs",
               "ToolTip": "D:\\Facultad\\ArgenMoto\\ArgenMoto\\Infraestructure\\Data\\MotoData.cs",
               "RelativeToolTip": "Infraestructure\\Data\\MotoData.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAgwCYAAAAvAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T00:22:25.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T00:22:25.769Z"
             }
           ]
         },

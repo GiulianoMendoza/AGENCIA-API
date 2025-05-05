@@ -27,7 +27,6 @@ namespace ArgenMoto.Controllers
         /// <response code="400">Solicitud incorrecta.</response>
         /// <remarks>Recupera un resumen de las ventas realizadas, con opción de filtrado por fecha.</remarks>
         [HttpGet]
-        [Authorize(Roles = "admin,vendedor,user,tecnico")]
         [ProducesResponseType(typeof(SaleGetResponse), 200)]
         [ProducesResponseType(typeof(ApiError), 400)]
         public async Task<IActionResult> GetAllSale(DateTime from, DateTime to)
@@ -50,7 +49,6 @@ namespace ArgenMoto.Controllers
         /// <response code="400">Solicitud incorrecta.</response>
         /// <remarks>Permite ingresar una nueva venta al sistema.</remarks>
         [HttpPost]
-        [Authorize(Roles = "admin,user,vendedor")]
         [ProducesResponseType(typeof(SaleResponse), 201)]
         [ProducesResponseType(typeof(ApiError), 400)]
         public async Task<IActionResult> RegisterSale(SaleRequest request)
@@ -73,7 +71,6 @@ namespace ArgenMoto.Controllers
         /// <response code="404">Venta no encontrada.</response>
         /// <remarks>Recupera los detalles de una venta por su ID único.</remarks>
         [HttpGet("{id}")]
-        [Authorize(Roles = "admin,vendedor,user")]
         [ProducesResponseType(typeof(SaleResponse), 200)]
         [ProducesResponseType(typeof(ApiError), 404)]
         public async Task<IActionResult> GetSaleById(int id)

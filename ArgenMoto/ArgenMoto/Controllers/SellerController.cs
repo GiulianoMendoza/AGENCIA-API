@@ -19,7 +19,6 @@ namespace ArgenMoto.Controllers
             _sellerService = sellerService;
         }
         [HttpGet("Me")]
-        [Authorize(Roles = "vendedor,admin")]
         [ProducesResponseType(typeof(SellerResponse), 200)]
         [ProducesResponseType(typeof(ApiError), 404)]
         public async Task<IActionResult> GetSellerById()
@@ -36,7 +35,6 @@ namespace ArgenMoto.Controllers
             }
         }
         [HttpPost]
-        [Authorize(Roles = "vendedor,admin")]
         [ProducesResponseType(typeof(SellerResponse), 201)]
         [ProducesResponseType(typeof(ApiError), 400)]
         public async Task<IActionResult> RegisterSeller([FromBody] SellerRequest request)

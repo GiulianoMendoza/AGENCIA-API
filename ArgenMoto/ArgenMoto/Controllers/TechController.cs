@@ -27,7 +27,6 @@ namespace ArgenMoto.Controllers
             return new JsonResult(result) { StatusCode = 200 };
         }
         [HttpGet("Me")]
-        [Authorize(Roles = "tecnico,admin")]
         [ProducesResponseType(typeof(TechResponse), 200)]
         [ProducesResponseType(typeof(ApiError), 404)]
         public async Task<IActionResult> GetTechById()
@@ -44,7 +43,6 @@ namespace ArgenMoto.Controllers
             }
         }
         [HttpPost]
-        [Authorize(Roles = "tecnico,admin")]
         [ProducesResponseType(typeof(TechResponse), 201)]
         [ProducesResponseType(typeof(ApiError), 400)]
         public async Task<IActionResult> RegisterTech([FromBody] TechRequest request)

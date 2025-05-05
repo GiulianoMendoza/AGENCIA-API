@@ -93,7 +93,6 @@ namespace ArgenMoto.Controllers
         /// <response code="409">Conflicto al actualizar el producto.</response>
         /// <remarks>Permite la actualización de los detalles de un producto específico.</remarks>
         [HttpPut("{id}")]
-        [Authorize(Roles = "admin")]
         [ProducesResponseType(typeof(MotoResponse), 200)]
         [ProducesResponseType(typeof(ApiError), 400)]
         [ProducesResponseType(typeof(ApiError), 404)]
@@ -126,7 +125,6 @@ namespace ArgenMoto.Controllers
         /// <response code="409">Producto asociado a una venta.</response>
         /// <remarks>Permite la eliminación de un producto del sistema usando su ID.</remarks>
         [HttpDelete("{id}")]
-        [Authorize(Roles = "admin")]
         [ProducesResponseType(typeof(MotoResponse), 200)]
         [ProducesResponseType(typeof(ApiError), 404)]
         [ProducesResponseType(typeof(ApiError), 409)]
